@@ -1,0 +1,26 @@
+[Unit]
+Description=LSN's distributed currency daemon
+After=network.target
+
+[Service]
+User=lucin
+Group=lucin
+
+Type=forking
+PIDFile=/var/lib/lucind/lucind.pid
+
+ExecStart=/usr/bin/lucind -daemon -pid=/var/lib/lucind/lucind.pid \
+          -conf=/etc/lucin/lucin.conf -datadir=/var/lib/lucind
+
+ExecStop=-/usr/bin/lucin-cli -conf=/etc/lucin/lucin.conf \
+         -datadir=/var/lib/lucind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/lucin_bg.qm</file>
+        <file alias="de">locale/lucin_de.qm</file>
+        <file alias="en">locale/lucin_en.qm</file>
+        <file alias="es">locale/lucin_es.qm</file>
+        <file alias="fi">locale/lucin_fi.qm</file>
+        <file alias="fr">locale/lucin_fr.qm</file>
+        <file alias="it">locale/lucin_it.qm</file>
+        <file alias="ja">locale/lucin_ja.qm</file>
+        <file alias="pl">locale/lucin_pl.qm</file>
+        <file alias="pt">locale/lucin_pt.qm</file>
+        <file alias="ru">locale/lucin_ru.qm</file>
+        <file alias="sk">locale/lucin_sk.qm</file>
+        <file alias="sv">locale/lucin_sv.qm</file>
+        <file alias="vi">locale/lucin_vi.qm</file>
+        <file alias="zh_CN">locale/lucin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/lucin_zh_TW.qm</file>
+    </qresource>
+</RCC>

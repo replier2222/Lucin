@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LSN
+Comment=LSN P2P Cryptocurrency
+Exec=lucin-qt %u
+Terminal=false
+Type=Application
+Icon=lucin128
+MimeType=x-scheme-handler/lucin;
+Categories=Office;Finance;
+Name[en_US]=lucin-qt.desktop

@@ -1,0 +1,26 @@
+# /etc/conf.d/lucind: config file for /etc/init.d/lucind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/lucin/lucin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/lucind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/lucind.pid"
+
+# Where to write lucind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/lucind"
+
+# User and group to own lucind process
+#BITCOIND_USER="lucin"
+#BITCOIND_GROUP="lucin"
+
+# Path to lucind executable
+#BITCOIND_BIN="/usr/bin/lucind"
+
+# Nice value to run lucind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
